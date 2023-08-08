@@ -1,10 +1,32 @@
-### Script for CS329s ML Deployment Lec 
+import subprocess
+import sys
+import os
 
-from streamlit_javascript import st_javascript
-import streamlit as st
-# url = st_javascript("await fetch('').then(r => window.parent.location.href)")
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
-# st.write(url)
+with open("req.txt") as file:
+
+    # Create an empty list to store the lines
+    lines = []
+
+    # Loop through each line in the file
+    for line in file:
+
+        # Append the line to the list
+        lines.append(line.strip())
+
+
+for line in lines:
+    install(line) 
+    
+
+import os
+import json
+import requests
+import SessionState
+import tensorflow as tf
+from utils import load_and_prep_image, classes_and_models, update_logger, predict_json
 
 import os
 import json
