@@ -20,14 +20,7 @@ import os
 # for line in lines:
 #     install(line) 
     
-
-import os
-import json
-import requests
-import SessionState
-import tensorflow as tf
-from utils import load_and_prep_image, classes_and_models, update_logger, predict_json
-
+import streamlit as st
 import os
 import json
 import requests
