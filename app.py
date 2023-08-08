@@ -2,23 +2,23 @@ import subprocess
 import sys
 import os
 
-def install(package):
-    subprocess.check_call([sys.executable, "pip", "install", package])
+# def install(package):
+#     subprocess.check_call([sys.executable, "-m" "pip", "install", package])
 
-with open("requirements.txt") as file:
+# with open("requirements.txt") as file:
 
-    # Create an empty list to store the lines
-    lines = []
+#     # Create an empty list to store the lines
+#     lines = []
 
-    # Loop through each line in the file
-    for line in file:
+#     # Loop through each line in the file
+#     for line in file:
 
-        # Append the line to the list
-        lines.append(line.strip())
+#         # Append the line to the list
+#         lines.append(line.strip())
 
 
-for line in lines:
-    install(line) 
+# for line in lines:
+#     install(line) 
     
 
 import os
