@@ -1,3 +1,40 @@
+import subprocess
+import sys
+import os
+dir_path = os.getcwd()
+
+# List all files in the directory
+files = os.listdir(dir_path)
+
+# Print the list of files
+print(files)
+
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+with open("food-vision//req.txt") as file:
+
+    # Create an empty list to store the lines
+    lines = []
+
+    # Loop through each line in the file
+    for line in file:
+
+        # Append the line to the list
+        lines.append(line.strip())
+
+
+for line in lines:
+    install(line) 
+    
+
+import os
+import json
+import requests
+import SessionState
+import tensorflow as tf
+from utils import load_and_prep_image, classes_and_models, update_logger, predict_json
+
 import os
 import json
 import requests
