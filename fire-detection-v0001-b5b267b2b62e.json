@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "fire-detection-v0001",
+  "private_key_id": "b5b267b2b62eca12c5b4383fc082c11d63be56be",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCsHzuYo9+aaKOh\nX37O7ukVif9kFrRTmWwKicUpAWK4QBFjQgtu2p13yv4X0HuNnEuFoEUYpxWimf9v\nCap1tEG6yFuqgmZE95xfR5sq3TvP3AZxirVwYR5hSbIVtxz2zc9EgY9rqjnmTho+\n0z1GROt0vFL3URyt03bYXnIG4CNY0AumjFHrD5pBU5+isuuW5e6z2ia3CT+1oZ1p\naiSUbjYVOv0XRtw45W+NP2an4TR2ZumS42QLzfmBbN9HQLB8bOPXzP6AKPeUAi4p\nXjbb6QGTakHOs4BLfo7JMNajy1hV7sfD/B7TeWCAh2QZTFAqow6JWrPAMIT0dK5m\nbenx8wRhAgMBAAECggEAPZx0db/7E0dvgx0uxB3q2yXpgEdMRzx82wzTwUjYsIFm\nd/Q1KXohsba824NqJpeSxQNImHl+mhSrxXBdTwK2IIkFnvRMbVWA6O410dMdTNtC\nhzQSnGZ3PHXnxDQmrwWesrP5xZ1KWnEMnf55SYT0D3Y18IddT6+JNAwinuluXaSM\nHtNqGkFFT0NrrRhx46YbcWSqeUoMtu9i2NZBI9+LVI3HGkSMBKX5euMi0afs+BP/\n5+esv4MPWmt2Au8UrT8IH2/5Td7L4OfqeEojBOcEM1nywdwzdMRjXrC7UVJm00sA\nlOQ1g27XKpu/jpzJk09vnnHiLbZp5TM/sqYn7v8ZPQKBgQDk7+ZYnTUtLl0k71Ic\nCeNrjPuvFo2/LOkVcfyoK/0EmrvGtQ0pCcpDPURINwVFhwpzCFg4sr4h0HHkHdRY\n+JXY08VWFOEkp/0BmpXnlnnhgp0y6Xfxi1kaIEcGov3BMRO2AxRyRcPD6/xdyBPF\nexXmeaFNFhtf/rrqI8QQAYRXAwKBgQDAd/4xSiZW2Z6np7uopWvlE5iYUlpfCEnm\npzfy39dKNJxwthqYgueOCWm4zXpE56VyczHzhEcxaPKuym1ywqVBZjiPcRL3O0q/\nwZ4u9VtLu+u17TieYLpNhrN3p1gdMsg8SARQujqsjS2OVCRGXxed9osR682VXUvN\nCQkMBtBXywKBgQDey8UM6flNPfixsCHlXY4wJaTuEPHjYe53y1WJyD1U1Mz3JU1o\nabmoVCB2cu0za6c0qaNJklHMkJG14X29FDaoK/e4vVsaFE352JoYJe35E+auHF14\n+Ra+gTj98XMoJv26vSaRyukoaylPjx4GqrF2eVoLrf74HeuDX0k4FnHXRwKBgHOK\n1WdjmzaCOBNvx2FLxUTlCbNPpP7t6+dytUyxgf4DLXMgb0DlPPrwva36dI9O/OyD\nKRaGb3LDDQVPcnr1TN3A7u11tSwERTBunHaWRrNlYfB6M4YojU8jMTQAmw4UQU6m\n8ShBVB3oNtP9wTUZuwTST9R3WZh0RKAW735vzL0XAoGAYZ+4vIfo3FVJFaYUhqgA\ndspjDy8w7CUF1mRtpe4XW4sqljrwMdzwfEXccPiQJGHSOhXSF3F7SqqL+75GNWsF\nNUxe2LoVs+8T6QXaTsqJPlSZ/xDvPX6RXb+W8eaIEaKa0HJcKn5+fGazFp4QgymR\ndOGEghIlaLU+6Uxm3jEG/XY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "fire-detection-v0001-service-a@fire-detection-v0001.iam.gserviceaccount.com",
+  "client_id": "103666443733461472695",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fire-detection-v0001-service-a%40fire-detection-v0001.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
