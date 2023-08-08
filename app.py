@@ -1,13 +1,6 @@
 import subprocess
 import sys
 import os
-dir_path = os.getcwd()
-
-# List all files in the directory
-files = os.listdir(dir_path)
-
-# Print the list of files
-print(files)
 
 def install(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
