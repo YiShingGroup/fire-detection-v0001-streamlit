@@ -3,7 +3,7 @@ import sys
 import os
 
 def install(package):
-    subprocess.check_call([sys.executable, "-m", "pip", "install", package, "--user])
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package, "--user"])
 
 with open("requirements.txt") as file:
 
