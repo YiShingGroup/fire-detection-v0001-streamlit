@@ -5,7 +5,7 @@ import os
 def install(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
-with open("req.txt") as file:
+with open("requirements.txt") as file:
 
     # Create an empty list to store the lines
     lines = []
