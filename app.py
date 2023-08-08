@@ -12,7 +12,7 @@ print(files)
 def install(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
-with open("food-vision//req.txt") as file:
+with open("req.txt") as file:
 
     # Create an empty list to store the lines
     lines = []
